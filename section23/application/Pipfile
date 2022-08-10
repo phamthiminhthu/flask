@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "==2.1.2"
+flask-script = "==2.0.5"
+jinja2 = "==3.0.3"
+itsdangerous = "==2.0.1"
+werkzeug = "*"
+flask-sqlalchemy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
